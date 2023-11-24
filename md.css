@@ -37,3 +37,9 @@ details[open] summary {
 span {
     color: #0766ff;
 }
+
+@media (max-width: 855px) {
+    #doc.comment-enabled:not(.comment-open-inner) {
+        margin-right: 0;
+    }
+}
