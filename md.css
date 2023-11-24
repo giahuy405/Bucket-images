@@ -40,6 +40,6 @@ span {
 
 @media (max-width: 855px) {
     #doc.comment-enabled:not(.comment-open-inner) {
-        margin-right: 0;
+        margin-right: 0 !important;
     }
 }
