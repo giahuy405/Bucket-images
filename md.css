@@ -1,0 +1,38 @@
+details {
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 8px !important;
+}
+
+details p {
+    margin: 0 !important;
+    padding-top: 4px;
+}
+
+details p span {
+    border-top: 1px solid #efefef;
+    margin: 0 !important;
+    color: red;
+    padding-top: 4px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+span {
+    color: #0766ff;
+}
